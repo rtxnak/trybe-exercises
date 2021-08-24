@@ -37,3 +37,8 @@ header h1{
     width: 66%;
     display: inline-block;
   }
+
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
