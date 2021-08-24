@@ -10,3 +10,14 @@ header {
 header h1{
     display: inline-block;
 }
+.navigation{
+    padding: 5px 0;
+    background-color: royalblue;
+}
+
+.navigation li {
+    margin-right: 50px;
+    list-style-type: none;
+    display: inline;
+    color: silver;
+  }
