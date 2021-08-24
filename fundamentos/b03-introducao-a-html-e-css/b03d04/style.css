@@ -1,0 +1,44 @@
+header {
+    background-color: mediumturquoise;
+    color: red;
+    display: block;
+    height: 100px;
+    min-width: 600px;
+
+}
+
+header section{
+    text-align: center;
+    font-size: 20px;
+}
+
+header h1{
+    display: inline-block;
+    
+}
+.navigation{
+    padding: 5px 0;
+    background-color: royalblue;
+}
+
+.navigation li {
+    margin-right: 50px;
+    list-style-type: none;
+    display: inline;
+    color: silver;
+    text-align: left;
+  }
+  .content {
+    max-width: 1200px;
+    margin: 20px;
+  }
+
+  .main-content {
+    width: 66%;
+    display: inline-block;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
