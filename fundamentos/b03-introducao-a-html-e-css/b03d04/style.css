@@ -1,0 +1,12 @@
+header {
+    background-color: mediumturquoise;
+    color: red;
+    text-align: center;
+    display: block;
+    height: 80px;
+    min-width: 600px;
+}
+
+header h1{
+    display: inline-block;
+}
