@@ -1,0 +1,38 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+  }
+
+  #color-list {
+    background-color: salmon;
+  }
+
+  .class-style {
+    background-color: violet;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration: underline
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  ul {
+    line-height: 40px;
+  }
+  #red{
+    background-color: red;
+  }
+  #yellow{
+    background-color: yellow;
+  }
+  #brown{
+    background-color: brown;
+  }
