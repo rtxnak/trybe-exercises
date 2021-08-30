@@ -13,16 +13,3 @@ let n = 4
 //   }
 // }
 // console.log(quadrado)
-
-for (let index = 1; index <= n; index += 1) {
-  for (let i = 1; i <= n; i += 1) {
-    if (index <= n - i) {
-      quadrado += 'M';
-    } else {
-      quadrado += '*';
-    }
-  } console.log(quadrado)
-}
-
-
-
