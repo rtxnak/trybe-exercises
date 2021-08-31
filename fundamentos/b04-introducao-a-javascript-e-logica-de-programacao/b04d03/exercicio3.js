@@ -1,15 +1,14 @@
 //3- Agora inverta o lado do triângulo. 
 
-let quadrado = "";
-let n = 4
+let n = 5
 
-// for (let index = 1; index <= n; index += 1) {
-//   for (let index = 1; index <= n; index += 1) {
-//     if (index < n) {
-//       quadrado.push("V");
-//     } else {
-//       quadrado.push("*")
-//     }
-//   }
-// }
-// console.log(quadrado)
+for (let i = 1; i <= n; i++) {
+  let line = '';
+  for (let s = 0; s < n - i; s++) {
+    line += ' ';
+  }
+  for (let c = 0; c < i; c++) {
+    line += '*';
+  }
+  console.log(line);
+}
