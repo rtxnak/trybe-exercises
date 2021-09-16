@@ -37,15 +37,18 @@
           <br>
           <br>
           <label for="state">Estado:</label>
-          <select name="user-state" id="state" required></select>
+          <select name="user-state" id="state" required>
+            <option disabled selected value>Selecione seu estado</option>
+            <!-- linha acima retirada do gabarito-->
+          </select>
           <br>
           <br>
           <label>Tipo de Moradia:</label>
           <br>
+          <input type="radio" required name="home-type" id="home-type-2" value="apartment">
+          <label for="home-type-2">Apartamento</label>
           <input type="radio" required name="home-type" id="home-type-1" value="house">
           <label for="home-type-1">Casa</label>
-          <input type="radio" required name="home-type" id="home-type-2" value="apartment">
-          <label for="home-type-1">Apartamento</label>
         </fieldset>
       </section>
 
