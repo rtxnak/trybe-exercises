@@ -1,0 +1,25 @@
+#personal-data-section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#personal-job-section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#button-section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+input[type=text] {
+  width: 700px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
