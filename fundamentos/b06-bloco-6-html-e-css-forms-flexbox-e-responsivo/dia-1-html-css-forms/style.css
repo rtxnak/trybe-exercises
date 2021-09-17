@@ -23,3 +23,10 @@ input[type=text] {
   margin-top: 2px;
   margin-bottom: 5px;
 }
+
+#cv-info {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
