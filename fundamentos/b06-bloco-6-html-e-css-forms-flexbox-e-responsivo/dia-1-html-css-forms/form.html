@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <form id="curriculum-form">
+      <section id="personal-data-section">
+        <fieldset id="data-form">
+          <legend>Dados pessoais</legend>
+          <label for="full-name">Nome:</label>
+          <br>
+          <input type="text" required name="user-name" id="full-name" maxlength="40" ;>
+          <br>
+          <label for="email">Email:</label>
+          <br>
+          <input type="text" required name="user-email" id="email" maxlength="50" ;>
+          <br>
+          <label for="cpf">CPF:</label>
+          <br>
+          <input type="text" required name="user-cpf" id="cpf" maxlength="11" ;>
+          <br>
+          <label for="adress">Endereço:</label>
+          <br>
+          <input type="text" required name="user-adress" id="adress" maxlength="200" ;>
+          <br>
+          <label for="city">Cidade:</label>
+          <br>
+          <input type="text" required name="user-city" id="city" maxlength="28" ;>
+          <br>
+          <br>
+          <label for="state">Estado:</label>
+          <select name="user-state" id="state" required>
+            <option disabled selected value>Selecione seu estado</option>
+            <!-- linha acima retirada do gabarito-->
+          </select>
+          <br>
+          <br>
+          <label>Tipo de Moradia:</label>
+          <br>
+          <input type="radio" required name="home-type" id="home-type-2" value="apartment">
+          <label for="home-type-2">Apartamento</label>
+          <input type="radio" required name="home-type" id="home-type-1" value="house">
+          <label for="home-type-1">Casa</label>
+        </fieldset>
+      </section>
+
+      <section id="personal-job-section">
+        <fieldset id="job-form">
+          <legend>Dados do seu último emprego</legend>
+          <label for="resume">Resumo do currículo:</label>
+          <br>
+          <textarea name="curriculum-resume" id="resume" cols="90" rows="30" maxlength="1000" required></textarea>
+          <br>
+          <label for="post">Cargo:</label>
+          <br>
+          <input type="text" required name="user-post" id="post" maxlength="40" ;>
+          <br>
+          <label for="post-resume">Descrição do cargo:</label>
+          <br>
+          <input type="text" required name="user-post-resume" id="post-resume" maxlength="500" ;>
+          <br>
+          <label for="start-date">Data de início:</label>
+          <br>
+          <input type="text" required name="user-start-date" id="start-date" maxlength="500" ;>
+        </fieldset>
+      </section>
+      <div id='button-section'>
+        <button class="submit-button" type="submit">Enviar</button>
+        <button class="clear-button" type="reset">Limpar</button>
+      </div>
+    </form>
+    <script src="node_modules/moment/moment.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+  </main>
+</body>
+
+</html>
