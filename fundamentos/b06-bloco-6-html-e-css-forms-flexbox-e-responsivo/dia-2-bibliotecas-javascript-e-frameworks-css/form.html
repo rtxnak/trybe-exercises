@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.rtl.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+</head>
+
+<body>
+  <main>
+    <form id="curriculum-form">
+      <section id="personal-data-section" class="border border-dark shadow p-3 mb-5 bg-white rounded ">
+        <fieldset id="data-form" class="p-3 mb-2 bg-dark text-white">
+          <legend>Dados pessoais</legend>
+          <label for="full-name">Nome:</label>
+          <br>
+          <input class="form-control" type="text" required name="user-name" id="full-name" maxlength="40" ;>
+          <br>
+          <label for="email">Email:</label>
+          <br>
+          <input class="form-control" type="text" required name="user-email" id="email" maxlength="50" ;>
+          <br>
+          <label for="cpf">CPF:</label>
+          <br>
+          <input class="form-control" type="text" required name="user-cpf" id="cpf" maxlength="11" ;>
+          <br>
+          <label for="adress">Endereço:</label>
+          <br>
+          <input class="form-control" type="text" required name="user-adress" id="adress" maxlength="200" ;>
+          <br>
+          <label for="city">Cidade:</label>
+          <br>
+          <input class="form-control" type="text" required name="user-city" id="city" maxlength="28" ;>
+          <br>
+          <br>
+          <label for="state">Estado:</label>
+          <select name="user-state" id="state" required class="form-control">
+            <option disabled selected value>Selecione seu estado</option>
+            <!-- linha acima retirada do gabarito-->
+          </select>
+          <br>
+          <br>
+          <label>Tipo de Moradia:</label>
+          <br>
+          <input class="form-check-input" class="form-check-input" type="radio" required name="home-type"
+            id="home-type-2" value="apartment">
+          <label class="form-check-label" for="home-type-2">Apartamento</label>
+          <input class="form-check-input" type="radio" required name="home-type" id="home-type-1" value="house">
+          <label class="form-check-label" for="home-type-1">Casa</label>
+        </fieldset>
+      </section>
+
+      <section id="personal-job-section" class="border border-dark shadow p-3 mb-5 bg-white rounded" >
+        <fieldset id="job-form" class="p-3 mb-2 bg-dark text-white">
+          <legend>Dados do seu último emprego</legend>
+          <label for="resume">Resumo do currículo:</label>
+          <br>
+          <textarea name="curriculum-resume" id="resume" cols="70" rows="30" maxlength="1000" required></textarea>
+          <br>
+          <label for="post">Cargo:</label>
+          <br>
+          <input class="form-control" type="text" required name="user-post" id="post" maxlength="40" ;>
+          <br>
+          <label for="post-resume">Descrição do cargo:</label>
+          <br>
+          <input class="form-control" type="text" required name="user-post-resume" id="post-resume" maxlength="500" ;>
+          <br>
+          <label for="start-date">Data de início:</label>
+          <br>
+          <input class="form-control" type="text" required name="user-start-date" id="start-date" maxlength="500" ;>
+        </fieldset>
+      </section>
+      <div id='button-section'>
+        <button class="submit-button btn btn-outline-success" type="submit" class=>Enviar</button>
+        <button class="clear-button btn btn-outline-warning" type="reset">Limpar</button>
+      </div>
+    </form>
+    <script src="node_modules/moment/moment.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+  </main>
+</body>
+
+</html>
