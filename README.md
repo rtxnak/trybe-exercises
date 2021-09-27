@@ -46,11 +46,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
 - [x] 5-5: _Fundamentos - JavaScript - Projetos_
-- [x] 5-5: _[Projeto - Arte com Pixels]()_
-- [x] 5-6: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Meme Generator]()_
-- [x] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [x] 5-7: _[Projeto - Carta Misteriosa]()_
+- [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/rtxnak/trybe-exercises/tree/master/projects/sd-016-a-project-pixels-art)_
+- [x] 5-6: _[Projeto - Lista de tarefas](https://github.com/rtxnak/trybe-exercises/tree/master/projects/sd-016-a-project-todo-list)_
+- [x] 5-7: _[Projeto - Meme Generator](https://github.com/rtxnak/trybe-exercises/tree/master/projects/sd-016-a-project-meme-generator)_
+- [x] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/rtxnak/trybe-exercises/tree/master/projects/sd-016-a-project-color-guess)_
+- [x] 5-7: _[Projeto - Carta Misteriosa](https://github.com/rtxnak/trybe-exercises/tree/master/projects/sd-016-a-project-mistery-letter)_
 
 ##### Bloco 6: HTML e CSS - Forms, Flexbox e Responsivo
 
@@ -58,13 +58,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [x] 6-3: _Introdução - CSS Flexbox_
 - [x] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
+- [x] 6-4: _CSS Flexbox - Part 2_
+- [x] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _[Projeto - Trybewarts]()_
 
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 7-2: _JavaScript ES6 - Objects_
 - [ ] 7-3: _Testes unitários em JavaScript_
 - [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
