@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <section id="input-field">
+      <h3>Coloque seu texto: </h3>
+      <input id="text-input" placeholder="coloque seu texto aqui" maxlength="60">
+    </section>
+    <section id="load-photo-field">
+      <input type="file" name="meme-insert" id="meme-insert">
+    </section>
+    <section id="meme-generator-field">
+      <div id="meme-image-container">
+        <img src="http://www.mdtop.com.br/wp-content/uploads/2021/01/placeholder-images-image_large.png"
+          alt="meme gerado" id="meme-image">
+        <p id="meme-text"></p>
+      </div>
+    </section>
+    <section>
+      <button id="fire" class="elementBttn">Fire 🔥️</button>
+      <button id="water" class="elementBttn">Water 🌊️</button>
+      <button id="earth" class="elementBttn">Earth 🌳️</button>
+    </section>
+    <section>
+      <h4>Sugestões(use com moderação):</h4>
+      <div id="memes-suggestions">
+        <div id="meme-1">
+          <img src="imgs/meme1.png" height="150px" alt="rafael urso">
+        </div>
+        <div id="meme-2">
+          <img src="imgs/meme2.png" height="150px" alt="rafael careta">
+        </div>
+        <div id="meme-3">
+          <img src="imgs/meme3.png" height="150px" alt="pikachu">
+        </div>
+        <div id="meme-4">
+          <img src="imgs/meme4.png" height="150px" alt="dogo">
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
