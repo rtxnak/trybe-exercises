@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <form class="trybewarts-login">
+      <input type="text" id="email" name="email" placeholder="Email">
+      <input type="text" id="password" name="password" placeholder="Senha">
+      <button id="loginInsert">Entrar</button>
+      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
+    </form>
+  </header>
+  <main>
+    <form id="evaluation-form">
+
+      <!-- linha 1 do formulario -->
+      <div id="diva">
+        <input id="input-name" placeholder="Nome">
+        <input id="input-lastname" placeholder="Sobrenome">
+      </div>
+
+      <!-- linha 2 do formulario -->
+      <div id="diva2">
+        <input id="input-email" placeholder="Email">
+        <select id="house">
+          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+          <option id="corvinode-house" value="Corvinode">Corvinode</option>
+          <option id="pytherina-house" value="Pytherina">Pytherina</option>
+        </select>
+      </div>
+
+      <!-- linha 3 do formulario -->
+      <div id="diva3">
+        <p id="label-family">Qual sua família?</p>
+        <label for="Frontend">
+          <input type="radio" name="family" value="Frontend" id="Frontend">Frontend
+        </label>
+        <label for="Backend">
+          <input type="radio" name="family" value="Backend" id="Backend">Backend
+        </label>
+        <label for="FullStack">
+          <input type="radio" name="family" value="FullStack" id="FullStack">FullStack
+        </label>
+      </div>
+
+      <!-- linha 4 do formulario -->
+      <div id="diva4">
+        <p id='label-content'>Qual conteúdo você está com mais vontade de aprender?</p>
+
+        <label for="hofs">
+          <input id='hofs' type="checkbox" value="HoFs" class="subject"> HoFs
+        </label>
+
+        <label for="jest">
+          <input id='jest' type="checkbox" value="Jest" class="subject"> Jest
+        </label>
+
+        <label for="promises">
+          <input id='promises' type="checkbox" value="Promises" class="subject"> Promises
+        </label>
+
+        <label for="react">
+          <input id='react' type="checkbox" value="React" class="subject"> React
+        </label>
+
+        <label for="sql">
+          <input id='sql' type="checkbox" value="SQL" class="subject"> SQL
+        </label>
+
+        <label for="python">
+          <input id='python' type="checkbox" value="Python" class="subject"> Python
+        </label>
+      </div>
+
+      <!-- linha 5 do formulario -->
+      <div id="rating">
+        <p id="label-rate">Como você avalia a Trybewarts?</p>
+      </div>
+
+      <!-- linha 6 do formulario -->
+      <label class="textarea">Deixe seu comentário:</label>
+      <textarea id="textarea" maxlength="500"></textarea>
+      <span id="counter"></span>
+      <br>
+      <!-- linha 7 do formulario -->
+
+      <div id="diva201">
+        <input type="checkbox" id="agreement" name="agreement">
+        <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+      </div>
+      <br>
+      <!-- linha 8 do formulario -->
+      <button form="evaluation-form" type="submit" id="submit-btn">Enviar</button>
+    </form>
+  </main>
+  <footer>
+    <p>Direitos reservados à Trybewarts©</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
